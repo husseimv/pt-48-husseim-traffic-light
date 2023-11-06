@@ -1,0 +1,48 @@
+.border__light{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 700px;
+  background-color: rgb(27, 22, 22);
+  border-radius: 200px;
+  position: absolute;
+}
+
+.light__first{
+    background-color: #008000; 
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.light__second{
+    background-color: #fafa00; 
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.light__third{
+    background-color: #fa0000;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.on {
+    box-shadow: 0 0 20px rgb(215, 189, 189);
+}
